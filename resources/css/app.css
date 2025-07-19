@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@source "../views";
+
+@theme {
+    --font-display: "Open sans", "sans-serif";
+    --color-primary: #009990;
+    --color-button: #0C356A;
+    --color-hover-button: #0B2F5C;
+}
+
+.swiper-slide {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
